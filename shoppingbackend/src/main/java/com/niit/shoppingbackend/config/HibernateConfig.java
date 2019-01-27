@@ -19,10 +19,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class HibernateConfig {
 
 	// change the below based on the DB you choose
-	private final static String DATABASE_URL = "jdbc:h2:tcp://localhost/~/onlineshopping";
+	private final static String DATABASE_URL = "jdbc:h2:tcp://localhost/~/Mobizone";
 	private final static String DATABASE_DRIVER = "org.h2.Driver";
-	private final static String DATABASE_USERNAME = "sa";
-	private final static String DATABASE_PASSWORD = "";
+	private final static String DATABASE_USERNAME = "prashant";
+	private final static String DATABASE_PASSWORD = "Prashant12";
 	private final static String DATABASE_DIALECT = "org.hibernate.dialect.H2Dialect";
 
 	// creating a DataSource object to set the connection properties of the chosen
