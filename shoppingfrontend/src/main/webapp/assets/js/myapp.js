@@ -223,7 +223,7 @@ $(function() {
 										}
 									else
 										{
-										str = '<label class="switch"><input type="checkbox" value="' + data + '"/><div class="slider"></div></label>'
+										str = '<label class="switch"><input type="checkbox" value="' + row.id + '"/><div class="slider"></div></label>'
 										}
 										
 									return str
